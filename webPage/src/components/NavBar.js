@@ -116,7 +116,7 @@ export const NavBar = () => {
     <div className="sticky-top">
       <nav
         className="navbar navbar-expand-lg navbar-light"
-        style={{ backgroundColor: "white" }}
+        style={{ backgroundColor: "white", justifyContent: "space-between" }}
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#" style={{ margin: "0rem 2rem" }}>
@@ -196,6 +196,7 @@ export const NavBar = () => {
                 className={`btn btn-outline-success ${styles.loginNav}`}
                 type="button"
                 onClick={() => handleLogin()}
+                style={{ marginRight: "1rem" }}
               >
                 login
               </button>

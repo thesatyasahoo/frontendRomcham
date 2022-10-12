@@ -737,7 +737,11 @@ const Ui = () => {
               src={pic9}
               alt="pic9"
               className={` ${styles.greenBannerAlign}`}
-              style={{ background: "#7FA53D" }}
+              style={{
+                background: "#7FA53D",
+                maxHeight: "30vh",
+                width: "fit-content",
+              }}
             />
           </div>
 
@@ -781,7 +785,11 @@ const Ui = () => {
       {/* footer */}
 
       <div
-        style={{ backgroundColor: "#4E6FB7" }}
+        style={{
+          backgroundColor: "#4E6FB7",
+          zIndex: "1",
+          position: "relative",
+        }}
         className={`${styles.footerDesign}`}
       >
         <div style={{ borderRight: "1px solid white", paddingRight: "2rem" }}>
