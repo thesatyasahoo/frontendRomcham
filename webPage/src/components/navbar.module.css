@@ -1,0 +1,36 @@
+.liAlign  {
+
+    margin-right: 2rem !important;
+ 
+}
+
+.liAlign li {
+
+    padding: 0rem 0.7rem;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+
+.loginNav {
+
+    border: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.navReg {
+
+    text-transform: uppercase;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, #F69032 , #FDCB19);
+    border: none;
+    color: #002146;
+    height: 3rem;
+    font-weight: 600;
+    width: 10rem;
+    font-size: 0.7rem;
+}
